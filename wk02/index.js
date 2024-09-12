@@ -14,4 +14,14 @@ function greetUser(a, greet, morning) {
   }
 }
 
+console.log("Start of the program");
 greetUser("morning", f1, f2);
+
+// setInterval(() => {
+
+// }, interval);
+setTimeout(() => {
+  console.log("After 5 seconds");
+}, 5000);
+
+console.log("End of the program");
